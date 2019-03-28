@@ -1,0 +1,43 @@
+body {
+	background: url(../img/background.jpg);
+	font-family: "微软雅黑";
+}
+
+.clear {
+	/*清除两边浮动*/
+	clear: both;
+}
+
+.fl {
+	/*清除左浮动*/
+	float: left;
+}
+
+.fr {
+	/*清除右浮动*/
+	float: rightright;
+}
+
+a {
+	/*去掉链接的默认下划线*/
+	text-decoration: none;
+}
+
+li {
+	/*去掉列表默认样式*/
+	list-style: none;
+}
+
+
+
+footer {
+	width: 100%;
+	height: 50px;
+	font-size: 14px;
+	line-height: 50px;
+	color: #222;
+	text-align: center;
+	border: #222222;
+	position: fixed;
+	bottom: 0px;
+}

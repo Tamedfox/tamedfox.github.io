@@ -1,0 +1,74 @@
+body {
+	background: url(../img/background.jpg);
+	font-family: "微软雅黑";
+	padding: 10% 0 0 0;
+}
+
+.clear {
+	/*清除两边浮动*/
+	clear: both;
+}
+
+.fl {
+	/*清除左浮动*/
+	float: left;
+}
+
+.fr {
+	/*清除右浮动*/
+	float: rightright;
+}
+
+a {
+	/*去掉链接的默认下划线*/
+	text-decoration: none;
+}
+
+li {
+	/*去掉列表默认样式*/
+	list-style: none;
+}
+
+.head .head-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	margin: 0 auto;
+	border-bottom: 30%;
+	display: table-cell;
+}
+
+.nav {
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav i a {
+	color: black;
+	height: 50px;
+	line-height: 50px;
+	padding: 3px 15px;
+	font-weight: bold;
+}
+
+.nav i a:hover {
+	background: #dcba9a;
+	text-decoration: none;
+	border-radius: 20px 20px;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	font-size: 14px;
+	line-height: 50px;
+	color: #222;
+	text-align: center;
+	border: #222222;
+	position: fixed;
+	bottom: 0px;
+}
