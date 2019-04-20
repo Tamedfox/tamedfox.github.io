@@ -1,78 +1,61 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Double_C的博客</title>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Double_C</title>
-		<meta name="description" content="Double_c的个人博客">
-		<meta name="author" content="Double_C">
+		<link rel="stylesheet" href="{{ "css/bootstrap.css" | relative_url }}">
+		<script type="text/javascript" src="{{ "js/jquery-1.11.3.min.js" | relative_url }}"></script>
+		<script type="text/javascript" src="{{ "js/bootstrap.js" | relative_url }}"></script>
+		<script type="text/javascript" src="{{ "js/index.js" | relative_url }}"></script>
+		<link rel="stylesheet" href="{{ "css/index.css" | relative_url }}">
 
-		<meta property="og:type" content="article">
-		<meta property="og:title" content="Double_C">
-		<meta property="og:description" content="Double_c的个人博客">
+		<link rel="shortcut icon " type="images/x-icon" href="{{ "img/favicon.ico" | relative_url }}">
+		<link rel="bookmark" type="image/x-icon" 　href="{{ "img/favicon.ico" | relative_url }}" />
 
-		<link rel="shortcut icon " type="images/x-icon" href="img/favicon.ico">
-		<link rel="bookmark" type="image/x-icon" 　href="img/favicon.ico" />
-
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-		
-		<script src="../js/jquery-1.11.3.min.js"></script>
-
-		<script type="text/javascript" src="../js/hello.js"></script>
 	</head>
 
-
 	<body>
-		<header>
+		<div class="container">
 
-
-		</header>
-
-		<!--头像 -->
-		<div class="head">
-			<img class="head-img" src="img/Double_C.jpg">
-		</div>
-
-		<!--导航 -->
-		<div class="nav">
-			<nav class="nav-menu">
-			
-				<i class="nav-menu-item">
-
-					<a href="/"  class="nav-menu-item-post">
-						首页
-					</a>
-				</i>
-
-				<i class="nav-menu-item">
-
-					<a href="/article/"  class="nav-menu-item-post">
-						所有文章
-					</a>
-				</i>
-
-				<i class="nav-menu-item">
-
-					<a href="/about" title="about" class="nav-menu-item-about">
-						关于我
-					</a>
-				</i>
-
-			</nav>
-		</div>
-		
-		<!--打招呼 -->
-		<div>
-			<p id="hello"></p>
-		</div>
-
-		<!--底层 -->
-		<footer>
-			<div class="footer">
-				CopyRight@ 2019 cf | All Rights Reserved.
+			<!-- 头像条-->
+			<div class="col-sm-12 headPic">
+				<img src="{{ "img/Double_C.jpg" | relative_url }}" class="center-block img-responsive img-circle" />
 			</div>
-		</footer>
+
+			<!-- 导航条-->
+			<div class="row">
+				<div class="col-sm-4">
+				</div>
+				<div class="col-sm-4">
+					<ul class="nav">
+						<div class="col-sm-4 text-center">
+							<li class="nav-item">
+								<a class="nav-link" href="/index.html/"><em>首页</em></a>
+							</li>
+						</div>
+						<div class="col-sm-4 text-center">
+							<li class="nav-item">
+								<a class="nav-link" href="/article/"><em>博客</em></a>
+							</li>
+						</div>
+						<div class="col-sm-4 text-center">
+							<li class="nav-item">
+								<a class="nav-link" href="/about/"><em>关于</em></a>
+							</li>
+						</div>
+					</ul>
+				</div>
+				<div class="col-sm-4">
+				</div>
+			</div>
+
+			<!-- 问候语 -->
+			<div class="row text-center sayHello">
+				<p id="hello"></p>
+			</div>
+		</div>
+
+
 	</body>
-</html>

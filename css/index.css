@@ -1,0 +1,27 @@
+body {
+	background-image: url(../img/background.jpg);
+	padding-top: 12%;
+}
+
+.headPic {
+	padding-bottom: 20px;
+}
+
+.nav-item a {
+	font-family: "微软雅黑";
+	color: #080808;
+	line-height: 20px;
+	font-size: 16px;
+	padding: 2px 20px 2px 15px;
+	font-weight: bold;
+}
+
+.nav-item a:hover {
+	background: #dcba9a;
+	text-decoration: none;
+	border-radius: 20px 20px;
+}
+
+.sayHello {
+	padding-top: 30px;
+}
